@@ -1,0 +1,101 @@
+{
+  "slider": [
+    {
+      "id": 1,
+      "title": "All for your home",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio malesuada at condimentum adipiscing iaculis semper.",
+      "image": "./src/images/slider-img-1.png",
+      "link": "/about"
+    },
+    {
+      "id": 2,
+      "title": "All for your home 2",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio malesuada at condimentum adipiscing iaculis semper.",
+      "image": "./src/images/slider-img-1.png"
+    },
+    {
+      "id": 3,
+      "title": "All for your home 3",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio malesuada at condimentum adipiscing iaculis semper.",
+      "image": "./src/images/slider-img-1.png"
+    }
+  ],
+
+  "productsWeek": [
+    {
+      "id": 1,
+      "badge": "Sale",
+      "image": "./src/images/productofweek-1.png",
+      "title": "Pot",
+      "price": "$ 223,00"
+    },
+    {
+      "id": 2,
+      "badge": "New",
+      "image": "./src/images/productofweek-2.png",
+      "title": "Lamp",
+      "price": "$ 223,00"
+    },
+    {
+      "id": 3,
+      "badge": "Sold",
+      "image": "./src/images/productofweek-3.png",
+      "title": "Chaire",
+      "price": "$ 223,00"
+    }
+  ],
+  "order": [
+    {
+      "id": 1,
+      "text": "order now for an",
+      "bold-text": "express delivery in 24h !",
+      "link": "/shop"
+    }
+  ],
+  "freeDelivery": [
+    {
+      "id": 1,
+      "image": "./src/images/clock.png",
+      "title": "Shope online",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio"
+    },
+    {
+      "id": 2,
+      "image": "./src/images/delivery-bag.png",
+      "title": "Free shipping",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio"
+    },
+    {
+      "id": 3,
+      "image": "./src/images/card.svg",
+      "title": "Return policy",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio"
+    },
+    {
+      "id": 3,
+      "image": "./src/images/dollar-circle.png",
+      "title": "PAYMENT",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio"
+    }
+  ],
+  "blogComponent": [
+    {
+      "id": 1,
+      "image": "./src/images/blog-img-1.png",
+      "date": "29 sep,2022",
+      "author": "by soroush norozy",
+      "desc": "Your office should have only natural materials",
+      "link": "/blog",
+      "linkText": "read more"
+    },
+    {
+      "id": 1,
+      "image": "./src/images/blog-img-2.png",
+      "date": "29 sep,2022",
+      "author": "by soroush norozy",
+      "desc": "Your office should have only natural materials",
+      "link": "/blog",
+      "linkText": "read more"
+    }
+  ]
+}
