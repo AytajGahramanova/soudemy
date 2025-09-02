@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const BlogComponent = () => {
   return (
-    <section className="mt-[120px]">
-      <div className="w-[90%] m-auto flex items-center justify-between flex-wrap">
+    <section className="blog-section mt-[120px]">
+      <div className="w-[90%] m-auto flex items-center justify-between flex-wrap gap-3">
         {data.blogComponent?.map((item) => {
           return (
             <div className="flex flex-col gap-[15px]">
@@ -17,7 +17,7 @@ const BlogComponent = () => {
                   <p className="text-[#777777] text-[16px]">
                     {item.date} / {item.author}
                   </p>
-                  <h3 className="mt-[15px] mb-[26px] text-[#2D2D2D] font-semibold text-[20px] w-full max-w-[280px]">
+                  <h3 className="mt-[15px] mb-[22x] text-[#2D2D2D] font-semibold text-[20px] w-full max-w-[280px]">
                     Your office should have only natural materials
                   </h3>
                   <Link

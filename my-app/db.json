@@ -44,6 +44,7 @@
       "price": "$ 223,00"
     }
   ],
+
   "order": [
     {
       "id": 1,
@@ -52,6 +53,7 @@
       "link": "/shop"
     }
   ],
+
   "freeDelivery": [
     {
       "id": 1,
@@ -78,6 +80,7 @@
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio"
     }
   ],
+
   "blogComponent": [
     {
       "id": 1,

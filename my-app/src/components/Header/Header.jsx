@@ -12,7 +12,7 @@ const Header = () => {
           <div>
             <h3>soudemy</h3>
           </div>
-          <ul className="flex items-center gap-[46px]">
+          <ul className="md:flex items-center gap-[46px] hidden">
             <li className="font-medium">
               <Link to="/">Home</Link>
             </li>

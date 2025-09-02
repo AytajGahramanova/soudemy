@@ -6,7 +6,7 @@ const Button = ({ props, borderColor = "white", fill = "white" }) => {
   return (
     <div>
       <button
-        className={`flex items-center gap-[23px] px-[56px] py-[20px] border cursor-pointer`}
+        className={`flex items-center gap-[23px] px-[56px] py-[15px] md:py-[20px] border cursor-pointer`}
         style={{ borderColor: borderColor }}
       >
         <Link to={props}>View more</Link>
