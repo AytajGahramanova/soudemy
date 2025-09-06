@@ -1,16 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Search from "../../images/search-normal.png";
-import Bag from "../../images/bag-2.png";
-import Menu from "../../images/menu.png";
-
+import { Link, useLocation } from "react-router-dom";
+import DrawerComponent from "../DrawerComponent/DrawerComponent";
+import { RiShoppingBasketFill } from "react-icons/ri";
 const Header = () => {
+  const location = useLocation();
+
+  const isHome = location.pathname === "/";
+  const textColor = isHome ? "text-white" : "text-black";
+  const positionLocation = isHome ? "absolute" : "relative";
+  const color = isHome ? "text-white" : "text-black";
+
   return (
-    <header className="absolute z-3 w-full">
+    <header className={`${positionLocation} z-3 w-full`}>
       <div className="w-[90%] m-auto flex items-center justify-between pt-[32px]">
-        <div className="flex items-center gap-20 text-white">
+        <div className={`flex items-center gap-20 ${textColor}`}>
           <div>
-            <h3>soudemy</h3>
+            <h3 className="font-bold">soudemy</h3>
           </div>
           <ul className="md:flex items-center gap-[46px] hidden">
             <li className="font-medium">
@@ -29,25 +34,12 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-[41px]">
           <div>
-            <img
-              className="cursor-pointer w-[23px] text-white"
-              src={Search}
-              alt="search-img"
-            />
+            <Link to="/basket">
+              <RiShoppingBasketFill className={`text-[25px] ${color}`} />
+            </Link>
           </div>
           <div>
-            <img
-              className="cursor-pointer w-[23px] text-white"
-              src={Bag}
-              alt="bag-img"
-            />
-          </div>
-          <div>
-            <img
-              className="cursor-pointer w-[23px] text-white"
-              src={Menu}
-              alt="menu-img"
-            />
+            <DrawerComponent />
           </div>
         </div>
       </div>

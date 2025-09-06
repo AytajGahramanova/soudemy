@@ -11,13 +11,15 @@
       "id": 2,
       "title": "All for your home 2",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio malesuada at condimentum adipiscing iaculis semper.",
-      "image": "./src/images/slider-img-1.png"
+      "image": "./src/images/video-cover.png",
+      "link": "/about"
     },
     {
       "id": 3,
       "title": "All for your home 3",
       "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio malesuada at condimentum adipiscing iaculis semper.",
-      "image": "./src/images/slider-img-1.png"
+      "image": "./src/images/blog-img-1.png",
+      "link": "/about"
     }
   ],
 
@@ -42,6 +44,48 @@
       "image": "./src/images/productofweek-3.png",
       "title": "Chaire",
       "price": "$ 223,00"
+    }
+  ],
+
+  "banner": [
+    {
+      "id": 1,
+      "img": "./src/images/cover.png",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio malesuada at condimentum adipiscing iaculis semper.",
+      "link": "/about"
+    }
+  ],
+
+  "videoCover": [
+    {
+      "id": 1,
+      "img": "./src/images/video-cover.png",
+      "img-player": "./src/images/video-play.png",
+      "link": "https://youtu.be/Gq7dvaGZJ8w?si=yU67Y1u5Op3JFSBR"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "img": "./src/images/shop-img-1.png",
+      "title": "stylish chairs",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio malesuada at condimentum adipiscing iaculis semper.",
+      "link": "/shop"
+    },
+    {
+      "id": 2,
+      "img": "./src/images/shop-img-2.png",
+      "title": "Table",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio malesuada at condimentum adipiscing iaculis semper.",
+      "link": "/shop"
+    },
+    {
+      "id": 3,
+      "img": "./src/images/shop-img-3.png",
+      "title": "contemporary lamps",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat dolor odio odio malesuada at condimentum adipiscing iaculis semper.",
+      "link": "/shop"
     }
   ],
 
@@ -100,5 +144,33 @@
       "link": "/blog",
       "linkText": "read more"
     }
-  ]
+  ],
+
+  "footer": {
+    "logo": "Soudemy",
+    "about": {
+      "title": "About Us",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus vitae congue id ipsum sed neque et dui accumsan. Nibh semper magna facilisi ridiculus luctus amet. Aliquam"
+    },
+    "useful": {
+      "title": "Useful",
+      "links": [
+        "Download product",
+        "Download product",
+        "Download product",
+        "Download product",
+        "Download product"
+      ]
+    },
+    "download": {
+      "title": "Download",
+      "links": ["instagram", "facebook", "Twitter", "pinterest", "youtube"]
+    },
+    "callCenter": {
+      "title": "Call Center",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus vitae",
+      "email": "soroushnorozyui@gmail.com",
+      "phone": "+1 333 555"
+    }
+  }
 }

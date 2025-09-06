@@ -5,9 +5,9 @@ const FreeDelivery = () => {
     <section className="free-delivery-section mt-[120px]">
       <div className="w-[90%] m-auto flex flex-wrap gap-4 items-center justify-center md:justify-between">
         <div className="flex items-center justify-center md:justify-between w-full flex-wrap gap-4">
-          {data.freeDelivery?.map((item) => {
+          {data.freeDelivery?.map((item, i) => {
             return (
-              <div className="flex flex-col gap-[15px]">
+              <div key={i} className="flex flex-col gap-[15px] md:text-start text-center justify-center items-center md:items-start">
                 <div className="flex items-center gap-[14px]">
                   <div>
                     <img src={item.image} className="w-[45px]" alt="img" />

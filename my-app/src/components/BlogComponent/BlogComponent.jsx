@@ -6,9 +6,9 @@ const BlogComponent = () => {
   return (
     <section className="blog-section mt-[120px]">
       <div className="w-[90%] m-auto flex items-center justify-between flex-wrap gap-3">
-        {data.blogComponent?.map((item) => {
+        {data.blogComponent?.map((item, i) => {
           return (
-            <div className="flex flex-col gap-[15px]">
+            <div key={i} className="flex flex-col gap-[15px]">
               <div className="flex items-center flex-col gap-[14px]">
                 <div>
                   <img src={item.image} alt="img" />
