@@ -172,5 +172,16 @@
       "email": "soroushnorozyui@gmail.com",
       "phone": "+1 333 555"
     }
+  },
+
+  "aboutPage": {
+    "breadCrumb": {
+      "image": "./src/images/about-page-img.png",
+      "title": "About us"
+    },
+    "progress":{
+      "title":"Functionality meets perfection",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. "
+    }
   }
 }

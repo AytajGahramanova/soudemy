@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const BlogComponent = () => {
   return (
-    <section className="blog-section mt-[120px]">
+    <section className="blog-section">
       <div className="w-[90%] m-auto flex items-center justify-between flex-wrap gap-3">
         {data.blogComponent?.map((item, i) => {
           return (

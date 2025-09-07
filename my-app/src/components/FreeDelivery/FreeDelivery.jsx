@@ -2,7 +2,7 @@ import React from "react";
 import data from "../../../db.json";
 const FreeDelivery = () => {
   return (
-    <section className="free-delivery-section mt-[120px]">
+    <section className="free-delivery-section mt-[90px] mb-[90px]">
       <div className="w-[90%] m-auto flex flex-wrap gap-4 items-center justify-center md:justify-between">
         <div className="flex items-center justify-center md:justify-between w-full flex-wrap gap-4">
           {data.freeDelivery?.map((item, i) => {
