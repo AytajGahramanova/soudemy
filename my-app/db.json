@@ -154,17 +154,11 @@
     },
     "useful": {
       "title": "Useful",
-      "links": [
-        "Download product",
-        "Download product",
-        "Download product",
-        "Download product",
-        "Download product"
-      ]
+      "links": ["Home", "Shop", "About us", "Blog"]
     },
     "download": {
       "title": "Download",
-      "links": ["instagram", "facebook", "Twitter", "pinterest", "youtube"]
+      "links": ["Instagram", "Facebook", "Twitter", "Pinterest", "Youtube"]
     },
     "callCenter": {
       "title": "Call Center",
@@ -179,9 +173,108 @@
       "image": "./src/images/about-page-img.png",
       "title": "About us"
     },
-    "progress":{
-      "title":"Functionality meets perfection",
-      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. "
+    "progress": {
+      "title": "Functionality meets perfection",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. "
     }
+  },
+
+  "shopPage": [
+    {
+      "id": 1,
+      "img": "./src/images/Rectangle 27.png",
+      "title": "Modern sofa",
+      "category": "Ceiling",
+      "price": "$73,00"
+    },
+    {
+      "id": 2,
+      "img": "./src/images/Rectangle 28.png",
+      "title": "Retro Lamp",
+      "category": "Floor",
+      "price": "$73,00"
+    },
+    {
+      "id": 3,
+      "img": "./src/images/Rectangle 26.png",
+      "title": "Luxury Bed",
+      "category": "Led",
+      "price": "$73,00"
+    },
+    {
+      "id": 4,
+      "img": "./src/images/Rectangle 30.png",
+      "title": "Modern sofa",
+      "category": "Modern",
+      "price": "$73,00"
+    },
+    {
+      "id": 5,
+      "img": "./src/images/Rectangle 31.png",
+      "title": "Comfort Rug",
+      "category": "Retro",
+      "price": "$73,00"
+    },
+    {
+      "id": 6,
+      "img": "./src/images/Rectangle 29.png",
+      "title": "Modern sofa",
+      "category": "Wood",
+      "price": "$73,00"
+    },
+    {
+      "id": 7,
+      "img": "./src/images/Rectangle 33.png",
+      "title": "Retro Lamp",
+      "category": "Ceiling",
+      "price": "$73,00"
+    },
+    {
+      "id": 8,
+      "img": "./src/images/Rectangle 34.png",
+      "title": "Elegant Desk",
+      "category": "Floor",
+      "price": "$73,00"
+    },
+    {
+      "id": 9,
+      "img": "./src/images/Rectangle 32.png",
+      "title": "Elegant Desk",
+      "category": "Led",
+      "price": "$73,00"
+    },
+    {
+      "id": 10,
+      "img": "./src/images/Rectangle 33.png",
+      "title": "Retro Lamp",
+      "category": "Ceiling",
+      "price": "$99,00"
+    },
+    {
+      "id": 11,
+      "img": "./src/images/Rectangle 31.png",
+      "title": "Comfort Rug",
+      "category": "Retro",
+      "price": "$120,00"
+    },
+    {
+      "id": 12,
+      "img": "./src/images/Rectangle 28.png",
+      "title": "Retro Lamp",
+      "category": "Floor",
+      "price": "$73,00"
+    }
+  ],
+
+  "category": {
+    "categoryName": "Category",
+    "items": [
+      { "id": 1, "name": "Ceiling" },
+      { "id": 2, "name": "Floor" },
+      { "id": 3, "name": "Led" },
+      { "id": 4, "name": "Modern" },
+      { "id": 5, "name": "Retro" },
+      { "id": 6, "name": "Wood" }
+    ]
   }
 }

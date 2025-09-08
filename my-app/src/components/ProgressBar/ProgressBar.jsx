@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 
 export default function Skills() {
   const skills = [
-    { name: "Creativity", value: 72 },
+    { name: "Creativity", value: 100 },
     { name: "Advertising", value: 84 },
     { name: "Design", value: 72 },
   ];

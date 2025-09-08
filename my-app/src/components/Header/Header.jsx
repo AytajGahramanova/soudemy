@@ -15,7 +15,9 @@ const Header = () => {
       <div className="w-[90%] m-auto flex items-center justify-between pt-[32px]">
         <div className={`flex items-center gap-20 ${textColor}`}>
           <div>
-            <h3 className="font-bold">soudemy</h3>
+            <Link to={"/"}>
+              <h3 className="font-bold">soudemy</h3>
+            </Link>
           </div>
           <ul className="md:flex items-center gap-[46px] hidden">
             <li className="font-medium">
