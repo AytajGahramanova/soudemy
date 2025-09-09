@@ -276,5 +276,62 @@
       { "id": 5, "name": "Retro" },
       { "id": 6, "name": "Wood" }
     ]
-  }
+  },
+
+  "blogPage": [
+    {
+      "id": 1,
+      "img": "blog-page-img-1.png",
+      "title": "New modern sofa is here",
+      "category": "Wood ",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.",
+      "date": "Sep 26, 2022",
+      "auther": "By soroush norozy"
+    },
+    {
+      "id": 2,
+      "img": "blog-page-img-2.png",
+      "title": "Discover the New Modern Sofa",
+      "category": "Floor",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.",
+      "date": "Sep 26, 2022",
+      "auther": "By soroush norozy"
+    },
+    {
+      "id": 3,
+      "img": "blog-page-img-3.png",
+      "title": "Your Living Room Upgrade is Here",
+      "category": "Led",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.",
+      "date": "Sep 26, 2022",
+      "auther": "By soroush norozy"
+    },
+    {
+      "id": 4,
+      "img": "blog-page-img-2.png",
+      "title": "Discover the New Modern Sofa",
+      "category": "Modern",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.",
+      "date": "Sep 26, 2022",
+      "auther": "By soroush norozy"
+    },
+    {
+      "id": 5,
+      "img": "blog-page-img-1.png",
+      "title": "New modern sofa is here",
+      "category": "Retro",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse massa libero, mattis volutpat id. Egestas adipiscing placerat eleifend a nascetur. Mattis proin enim, nam porttitor vitae. Faucibus vel porttitor imperdiet ultricies a eget sed. Vestibulum velit vulputate amet nunc amet.",
+      "date": "Sep 26, 2022",
+      "auther": "By soroush norozy"
+    }
+  ],
+
+  "blogSidebar": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum dolor sit amet, consectetur",
+      "img": "blog-page-img-2.png",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et gravida ante dolor tristique euismod dui nam."
+    }
+  ]
 }

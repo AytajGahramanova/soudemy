@@ -32,7 +32,7 @@ export const ROOT = [
         element: <Blog />,
       },
       {
-        path: "/blog-detail",
+        path: "/blog-detail/:id",
         element: <BlogDetail />,
       },
     ],
