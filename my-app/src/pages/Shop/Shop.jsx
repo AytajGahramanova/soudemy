@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import { Pagination } from "@mui/material";
 import data from "../../../db.json";
+import { Link, useNavigate } from "react-router-dom";
 
 const Shop = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
+
+  const navigate = useNavigate();
 
   const filteredCategories =
     selectedCategory === "All"
@@ -17,11 +20,11 @@ const Shop = () => {
   );
 
   // Pagination
-  const itemsPerPage = page === 1 ? 9 : 3;
+  const itemsPerPage = page === 1 ? 9 : 4;
   const startIndex = page === 1 ? 0 : 9;
   const selectedItems = searchData.slice(startIndex, startIndex + itemsPerPage);
 
-  const handleChange = (event, value) => {
+  const handleChange = (value) => {
     setPage(value);
   };
 
@@ -44,29 +47,39 @@ const Shop = () => {
           </div>
         </div>
         <div className="flex justify-between md:flex-row flex-col mt-5">
-          <div className="flex justify-center flex-wrap md:w-[80%] w-full md:justify-between mt-[30px]">
+          <div className="flex justify-center flex-wrap gap-20 md:w-[80%] w-full md:justify-between mt-[30px]">
             {selectedItems.map((item) => {
               return (
                 <div
                   key={item.id}
-                  className="cursor-pointer w-[300px] h-[350px] mb-10"
+                  className="cursor-pointer w-[300px] h-[350px]"
                 >
                   <div>
-                    <img className="w-full" src={item.img} alt={item.title} />
+                    <img
+                      className="w-full"
+                      src={`./img/${item.img}`}
+                      alt={item.title}
+                    />
                   </div>
-                  <div className="text-center mt-3">
+                  <div className="flex items-center flex-col text-center mt-3">
                     <h4 className="text-[#6B6B6B]">{item.category}</h4>
                     <p className="font-medium text-[17px]">{item.title}</p>
                     <span className="text-[#6B6B6B] text-[16px]">
                       {item.price}
                     </span>
+                    <Link
+                      className="underline text-[#2F2D2D] text-[18px]"
+                      onClick={() => navigate(`/shop-detail/${item.id}`)}
+                    >
+                      read more
+                    </Link>
                   </div>
                 </div>
               );
             })}
             <div className="w-full flex justify-center mt-6">
               <Pagination
-                count={2} // yalnız 2 səhifə var
+                count={2}
                 page={page}
                 onChange={handleChange}
                 color="primary"

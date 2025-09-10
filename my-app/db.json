@@ -182,87 +182,107 @@
   "shopPage": [
     {
       "id": 1,
-      "img": "./src/images/Rectangle 27.png",
+      "img": "Rectangle 27.png",
       "title": "Modern sofa",
       "category": "Ceiling",
-      "price": "$73,00"
+      "price": "$73,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     },
     {
       "id": 2,
-      "img": "./src/images/Rectangle 28.png",
+      "img": "Rectangle 28.png",
       "title": "Retro Lamp",
       "category": "Floor",
-      "price": "$73,00"
+      "price": "$73,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     },
     {
       "id": 3,
-      "img": "./src/images/Rectangle 26.png",
+      "img": "Rectangle 26.png",
       "title": "Luxury Bed",
       "category": "Led",
-      "price": "$73,00"
+      "price": "$73,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     },
     {
       "id": 4,
-      "img": "./src/images/Rectangle 30.png",
+      "img": "Rectangle 30.png",
       "title": "Modern sofa",
       "category": "Modern",
-      "price": "$73,00"
+      "price": "$73,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     },
     {
       "id": 5,
-      "img": "./src/images/Rectangle 31.png",
+      "img": "Rectangle 31.png",
       "title": "Comfort Rug",
       "category": "Retro",
-      "price": "$73,00"
+      "price": "$73,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     },
     {
       "id": 6,
-      "img": "./src/images/Rectangle 29.png",
+      "img": "Rectangle 29.png",
       "title": "Modern sofa",
       "category": "Wood",
-      "price": "$73,00"
+      "price": "$73,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     },
     {
       "id": 7,
-      "img": "./src/images/Rectangle 33.png",
+      "img": "Rectangle 33.png",
       "title": "Retro Lamp",
       "category": "Ceiling",
-      "price": "$73,00"
+      "price": "$73,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     },
     {
       "id": 8,
-      "img": "./src/images/Rectangle 34.png",
+      "img": "Rectangle 34.png",
       "title": "Elegant Desk",
       "category": "Floor",
-      "price": "$73,00"
+      "price": "$73,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     },
     {
       "id": 9,
-      "img": "./src/images/Rectangle 32.png",
+      "img": "Rectangle 32.png",
       "title": "Elegant Desk",
       "category": "Led",
-      "price": "$73,00"
+      "price": "$73,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     },
     {
       "id": 10,
-      "img": "./src/images/Rectangle 33.png",
+      "img": "related-img-1.png",
       "title": "Retro Lamp",
       "category": "Ceiling",
-      "price": "$99,00"
+      "price": "$99,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     },
     {
       "id": 11,
-      "img": "./src/images/Rectangle 31.png",
+      "img": "related-img-3.png",
       "title": "Comfort Rug",
       "category": "Retro",
-      "price": "$120,00"
+      "price": "$120,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     },
     {
       "id": 12,
-      "img": "./src/images/Rectangle 28.png",
+      "img": "related-img-4.png",
       "title": "Retro Lamp",
       "category": "Floor",
-      "price": "$73,00"
+      "price": "$73,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
+    },
+    {
+      "id": 13,
+      "img": "related-img-5.png",
+      "title": "Modern sofa",
+      "category": "Wood",
+      "price": "$73,00",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim et volutpat lobortis enim donec adipiscing nibh. Consectetur in ac elementum aliquam imperdiet tellus."
     }
   ],
 

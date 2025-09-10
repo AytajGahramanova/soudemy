@@ -89,7 +89,7 @@ const Blog = () => {
             })}
             <div className="w-full flex justify-center mt-6">
               <Pagination
-                count={2} // yalnız 2 səhifə var
+                count={2}
                 page={page}
                 onChange={handleChange}
                 color="primary"

@@ -24,7 +24,7 @@ export const ROOT = [
         element: <Shop />,
       },
       {
-        path: "shop-detail",
+        path: "/shop-detail/:id",
         element: <ShopDetail />,
       },
       {
