@@ -24,11 +24,11 @@ const SwiperC = ({ initialIndex = 0 }) => {
       >
         {data.shopPage.map((item) => {
           return (
-            <SwiperSlide>
+            <SwiperSlide className="bg-[#cc9a65c6]">
               <img
                 src={`/img/${item.img}`}
                 alt={item.title}
-                className="w-full h-auto object-cover"
+                className="w-full h-[500px] object-contain"
               />
             </SwiperSlide>
           );

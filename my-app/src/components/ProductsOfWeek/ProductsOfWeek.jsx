@@ -1,5 +1,6 @@
 import React from "react";
 import data from "../../../db.json";
+import { Link } from "react-router-dom";
 
 const ProductsOfWeek = () => {
   return (
@@ -17,20 +18,25 @@ const ProductsOfWeek = () => {
         <div className="flex items-center justify-between flex-wrap">
           {data.productsWeek?.map((item, i) => {
             return (
-              <div key={i}>
-                <div>
+              <Link to={"/shop"}>
+                <div key={i}>
                   <span className="absolute text-[#878686] text-[17px] font-medium z-5 ml-[2rem] mt-[1rem]">
                     {item.badge}
                   </span>
-                  <div className="relative">
-                    <img src={item.image} alt="img" />
+                  <div className="relative overflow-hidden group">
+                    <img
+                      className="transition-transform duration-300 group-hover:scale-110"
+                      src={item.image}
+                      alt="img"
+                    />
                   </div>
+
                   <div className="flex items-center justify-center text-center flex-col gap-[8px] mt-[12px] mb-[12px] md:mt-[27px]">
                     <h3 className="text-[21px] font-medium">{item.title}</h3>
                     <p className="text-[#929292]">{item.price}</p>
                   </div>
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>

@@ -2,6 +2,8 @@ import React from "react";
 import SwiperC from "../../components/Swiper/SwiperC";
 import { useParams } from "react-router-dom";
 import data from "../../../db.json";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
+import RelatedProducts from "../../components/RelatedProducts/RelatedProducts";
 
 const ShopDetail = () => {
   const { id } = useParams();
@@ -14,7 +16,7 @@ const ShopDetail = () => {
   );
   return (
     <div className="w-[90%] m-auto">
-      <div className="flex md:flex-row flex-col justify-between mt-10 gap-3">
+      <div className="flex md:flex-row flex-col justify-between mt-20 gap-3">
         <div className="md:w-[60%] w-full">
           <SwiperC initialIndex={initialIndex} />
         </div>
@@ -31,6 +33,8 @@ const ShopDetail = () => {
           </p>
         </div>
       </div>
+      <RelatedProducts />
+      <ScrollToTop />
     </div>
   );
 };

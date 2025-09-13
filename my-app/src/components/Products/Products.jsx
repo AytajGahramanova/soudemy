@@ -20,13 +20,21 @@ const Products = () => {
               fill="black"
             />
           </div>
-          <div className="md:w-[60%] w-full">
-            <img src={data.products[0].img} alt="img" />
+          <div className="overflow-hidden group md:w-[60%] w-full">
+            <img
+              className="transition-transform duration-300 group-hover:scale-110"
+              src={data.products[0].img}
+              alt="img"
+            />
           </div>
         </div>
         <div className="flex items-center justify-center text-center md:gap-[80px] gap-[40px] flex-col-reverse md:flex-row mb-[30px] md:mb-0">
-          <div className="md:w-[60%] w-full">
-            <img src={data.products[1].img} alt="img" />
+          <div className="overflow-hidden group md:w-[60%] w-full">
+            <img
+              className="transition-transform duration-300 group-hover:scale-110"
+              src={data.products[1].img}
+              alt="img"
+            />
           </div>
           <div className="flex items-center justify-center text-center flex-col">
             <h2 className="text-[36px] font-medium uppercase">
@@ -56,8 +64,12 @@ const Products = () => {
               fill="black"
             />
           </div>
-          <div className="md:w-[60%] w-full">
-            <img src={data.products[2].img} alt="img" />
+          <div className="overflow-hidden group md:w-[60%] w-full">
+            <img
+              className="transition-transform duration-300 group-hover:scale-110"
+              src={data.products[2].img}
+              alt="img"
+            />
           </div>
         </div>
       </div>

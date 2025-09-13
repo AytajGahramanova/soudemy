@@ -34,10 +34,12 @@ const Slider = () => {
       {data.slider?.map((item, i) => (
         <SwiperSlide key={i}>
           <div
-            className="md:h-[900px] h-[650px] bg-cover bg-center flex flex-col justify-center items-center text-white" 
+            className="md:h-[900px] h-[650px] bg-cover bg-center flex flex-col justify-center items-center text-white"
             style={{ backgroundImage: `url(${item.image})` }}
           >
-            <h2 className="md:text-5xl text-3xl font-medium uppercase">{item.title}</h2>
+            <h2 className="md:text-5xl text-3xl font-medium uppercase">
+              {item.title}
+            </h2>
             <p className="md:text-lg text-md w-full max-w-[500px] text-center mt-[10px] mb-[44px]">
               {item.subtitle}
             </p>

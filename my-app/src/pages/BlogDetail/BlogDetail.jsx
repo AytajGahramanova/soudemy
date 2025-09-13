@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import data from "../../../db.json";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 const BlogDetail = () => {
   const { id } = useParams();
@@ -107,6 +108,7 @@ const BlogDetail = () => {
           </div>
         </div>
       </div>
+      <ScrollToTop />
     </div>
   );
 };
