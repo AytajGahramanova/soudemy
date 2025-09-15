@@ -7,7 +7,8 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   theme: {
     fontFamily: {
-      sans: ["Poppins", "sans-serif"], 
+      sans: ["Poppins", "sans-serif"],
     },
   },
+  base: process.env.VITE_BASE_PATH || "/soudemy",
 });
