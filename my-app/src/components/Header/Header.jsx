@@ -28,6 +28,7 @@ const Header = () => {
               { name: "Shop", path: "/shop" },
               { name: "About us", path: "/about" },
               { name: "Blog", path: "/blog" },
+              { name: "Contact", path: "/contact" },
             ].map((link) => (
               <li key={link.name} className="font-medium">
                 <NavLink
@@ -46,15 +47,6 @@ const Header = () => {
           </ul>
         </div>
         <div className="flex items-center gap-[41px]">
-          <div>
-            <Link to="/basket">
-              <RiShoppingBasketFill
-                className={`text-[25px] ${
-                  isHome ? "text-white" : "text-black"
-                }`}
-              />
-            </Link>
-          </div>
           <div>
             <DrawerComponent />
           </div>

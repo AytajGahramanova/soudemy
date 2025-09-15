@@ -5,6 +5,7 @@ import Shop from "../pages/Shop/Shop";
 import ShopDetail from "../pages/ShopDetail/ShopDetail";
 import Blog from "../pages/Blog/Blog";
 import BlogDetail from "../pages/BlogDetail/BlogDetail";
+import Contact from "../pages/Contact/Contact";
 
 export const ROOT = [
   {
@@ -34,6 +35,10 @@ export const ROOT = [
       {
         path: "/blog-detail/:id",
         element: <BlogDetail />,
+      },
+      {
+        path: "contact",
+        element: <Contact />,
       },
     ],
   },

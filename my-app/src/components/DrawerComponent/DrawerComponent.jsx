@@ -20,6 +20,7 @@ const DrawerComponent = () => {
     { name: "Shop", path: "/shop" },
     { name: "About us", path: "/about" },
     { name: "Blog", path: "/blog" },
+    { name: "Contact", path: "/contact" },
   ];
 
   const location = useLocation();

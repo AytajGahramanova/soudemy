@@ -18,8 +18,8 @@ const ProductsOfWeek = () => {
         <div className="flex items-center justify-between flex-wrap">
           {data.productsWeek?.map((item, i) => {
             return (
-              <Link to={"/shop"}>
-                <div key={i}>
+              <Link key={i} to={"/shop"}>
+                <div>
                   <span className="absolute text-[#878686] text-[17px] font-medium z-5 ml-[2rem] mt-[1rem]">
                     {item.badge}
                   </span>

@@ -154,7 +154,7 @@
     },
     "useful": {
       "title": "Useful",
-      "links": ["Home", "Shop", "About us", "Blog"]
+      "links": ["Home", "Shop", "About us", "Blog", "Contact"]
     },
     "download": {
       "title": "Download",
@@ -353,5 +353,8 @@
       "img": "blog-page-img-2.png",
       "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et gravida ante dolor tristique euismod dui nam."
     }
-  ]
+  ],
+  "contact": {
+    
+  }
 }

@@ -15,6 +15,7 @@ const Footer = () => {
     Shop: "/shop",
     "About us": "/about",
     Blog: "/blog",
+    Contact: "/contact",
   };
 
   const socialMap = {
