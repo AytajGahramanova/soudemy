@@ -10,5 +10,5 @@ export default defineConfig({
       sans: ["Poppins", "sans-serif"],
     },
   },
-  base: process.env.VITE_BASE_PATH || "/soudemy",
+  base: import.meta.env.VITE_BASE_PATH || "/soudemy",
 });
