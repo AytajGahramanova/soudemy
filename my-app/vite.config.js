@@ -10,4 +10,5 @@ export default defineConfig({
       sans: ["Poppins", "sans-serif"],
     },
   },
+  base: "/",
 });
